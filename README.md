@@ -53,28 +53,6 @@ npm --version     # Debe mostrar 8.x.x o superior
 git --version     # Cualquier versión reciente funciona
 \`\`\`
 
-### **📥 Paso 1: Clonar el Repositorio**
-\`\`\`bash
-git clone https://github.com/NancyStephanieVidal/prueba-tecnica-react.git
-cd prueba-tecnica-react
-\`\`\`
-
-### **📦 Paso 2: Instalar Dependencias**
-\`\`\`bash
-npm install
-\`\`\`
-
-### **▶️ Paso 3: Ejecutar en Modo Desarrollo**
-\`\`\`bash
-npm start
-\`\`\`
-La aplicación se abrirá automáticamente en: \`http://localhost:3000\`
-
-### **🧪 Paso 4: Ejecutar Pruebas Unitarias**
-\`\`\`bash
-npm test
-\`\`\`
-
 ## 📁 Estructura del Proyecto
 \`\`\`
 src/
@@ -103,4 +81,26 @@ src/
 └── index.tsx            
 \`\`\`
 
+
+### **📥 Paso 1: Clonar el Repositorio**
+\`\`\`bash
+git clone https://github.com/NancyStephanieVidal/prueba-tecnica-react.git
+cd prueba-tecnica-react
+\`\`\`
+
+### **📦 Paso 2: Instalar Dependencias**
+\`\`\`bash
+npm install
+\`\`\`
+
+### **▶️ Paso 3: Ejecutar en Modo Desarrollo**
+\`\`\`bash
+npm start
+\`\`\`
+La aplicación se abrirá automáticamente en: \`http://localhost:3000\`
+
+### **🧪 Paso 4: Ejecutar Pruebas Unitarias**
+\`\`\`bash
+npm test
+\`\`\`
 ---
