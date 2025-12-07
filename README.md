@@ -33,7 +33,10 @@ cd C:\Users\STEPHANIE\Documents\frontend-prueba
 ### 🧪 Resultados de Pruebas:
 ```bash
 npm test -- validation.test.ts
+npm test -- searchbar.test.tsx
+npm test -- userservice.test.ts
 # PASS: 10 pruebas, 0 fallos 
+
 
 ## 🚀 **CÓMO EJECUTAR EL PROYECTO LOCALMENTE**
 
@@ -76,12 +79,16 @@ npm test
 \`\`\`
 src/
 ├── components/
+│   └── __tests__/
+│       └── SearchBar.test.tsx  # Tests unitarios
 │   ├── Pagination.tsx
 │   ├── SearchBar.tsx      # Con validaciones integradas
 │   ├── UserCard.tsx       # Con Material-UI
 │   ├── UserDetail.tsx
 │   └── UserList.tsx
 ├── services/
+│   └── __tests__/
+│       └── userService.test.ts  # Tests unitarios
 │   └── userService.ts     # Consumo de API
 ├── styles/
 │   ├── App.css           # Estilos globales
