@@ -24,6 +24,17 @@ cd C:\Users\STEPHANIE\Documents\frontend-prueba
 | ✅ Responsive design | Mobile-first |
 | ✅ Seguridad | Validaciones XSS |
 
+### 🔒 Validaciones de Seguridad:
+- Sanitización de inputs contra XSS
+- Bloqueo de: `<script>`, `javascript:`, `onclick`, etc.
+- Validación en tiempo real con debounce
+- **10 pruebas unitarias ejecutadas y pasando**
+
+### 🧪 Resultados de Pruebas:
+```bash
+npm test -- validation.test.ts
+# PASS: 10 pruebas, 0 fallos 
+
 ## 🚀 **CÓMO EJECUTAR EL PROYECTO LOCALMENTE**
 
 ### **📋 Prerrequisitos**
@@ -59,6 +70,30 @@ La aplicación se abrirá automáticamente en: \`http://localhost:3000\`
 ### **🧪 Paso 4: Ejecutar Pruebas Unitarias**
 \`\`\`bash
 npm test
+\`\`\`
+
+## 📁 Estructura del Proyecto
+\`\`\`
+src/
+├── components/
+│   ├── Pagination.tsx
+│   ├── SearchBar.tsx      # Con validaciones integradas
+│   ├── UserCard.tsx       # Con Material-UI
+│   ├── UserDetail.tsx
+│   └── UserList.tsx
+├── services/
+│   └── userService.ts     # Consumo de API
+├── styles/
+│   ├── App.css           # Estilos globales
+│   ├── index.css           # Estilos
+├── types/
+│   └── usertypes.ts     # Tipos de usuario
+├── utils/
+│   ├── validations.ts    # Funciones de seguridad
+│   └── __tests__/
+│       └── validations.test.ts  # Tests unitarios
+├── App.tsx
+└── index.tsx            
 \`\`\`
 
 ---
